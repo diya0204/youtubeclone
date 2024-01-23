@@ -1,0 +1,46 @@
+
+.thumbnail{
+  width:100%;
+  object-fit:contain;
+  object-position:right;
+  display:block;
+}
+
+.next,.view{
+  color:#606060;
+  font-size:12px;
+   font-weight:400;
+
+}
+
+
+.profile{
+width: 100%;
+border-radius: 36px;
+margin-top: 12px;
+
+}
+  
+
+.row{
+
+display:grid;
+grid-template-columns: 50px 1fr;
+
+
+
+}
+.text{
+font-size:14px;
+font-weight:500;
+margin-top:0;
+line-height:20px;
+margin-bottom:15px;
+}
+.video-grid{
+display:grid;
+grid-template-columns:1fr 1fr 1fr ;
+column-gap:16px;
+row-gap:40px;
+
+}
