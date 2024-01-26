@@ -17,5 +17,10 @@
   align-items:center;
 }
 .right-section{
-width:200px;
+width:180px;
+display:flex;
+margin-right:20px;
+flex-shrink:0;/* in this no matter what the itoms do not shrink*/
+align-items:center;
+justify-content:space-between;
 }
