@@ -8,7 +8,11 @@
   right:0;
   left:0;
   background-color: white;
-  padding-top:80px;
+  border-bottom-width:1px;
+  border-bottom-style:solid;
+  border-bottom-color:rgb(232, 224, 224);
+
+
 }
 .left-section{
    display:flex;
