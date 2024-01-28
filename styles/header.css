@@ -34,3 +34,14 @@ flex-shrink:0;/* in this no matter what the itoms do not shrink*/
 align-items:center;
 justify-content:space-between;
 }
+.sidebar{
+  position:fixed;
+  left:0;
+  bottom:0;
+  top:55px;
+  background-color: white;
+  width:72px;
+
+
+
+}
