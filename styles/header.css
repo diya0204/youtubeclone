@@ -41,24 +41,42 @@ justify-content:space-between;
   top:55px;
   background-color: white;
   width:72px;
-  z-index:2;
+
 
 }
-.home{
-  height:40px;
-} 
-.explore{
-  height:40px;
+.sidebar-link img{
+  height:24px;
 }
-.suscription{
-  height:40px;
+
+.notifications{
+  height:24px;
+  }
+.notification{
+  position:relative;
+
 }
-.originals{
-  height:40px;
+.notification-count{
+  position:absolute;
+  top:-2px;
+  right:-5px;
+  background-color: rgb(179, 43, 43);
+  color:white;
+  font-size:11px;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif,Arial;
+  padding-left:6px ;
+  padding-top:2px ;
+  padding-bottom: 2px;
+  padding-right: 6px;
+  border-radius:10px ;
 }
-.you-tubemusic{
-  height:40px;
+.sidebar-link{
+  
+  height:76px;
+  margin-bottom:1px;
+
 }
-.library{
-  height:40px;
+.sidebar-link:hover{
+
+  background-color: lightgray;
+
 }
