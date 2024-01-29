@@ -12,11 +12,14 @@
   border-bottom-style:solid;
   border-bottom-color:rgb(232, 224, 224);
    z-index:2;
+   cursor: pointer;
 
 }
 .left-section{
    display:flex;
   align-items:center;
+  cursor: pointer;
+
 }
 .middle-section{
    display:flex;
@@ -25,6 +28,8 @@
   margin-right:30px;
   max-width:500px;
   align-items:center;
+  cursor: pointer;
+
 }
 .right-section{
 width:180px;
@@ -33,6 +38,8 @@ margin-right:20px;
 flex-shrink:0;/* in this no matter what the itoms do not shrink*/
 align-items:center;
 justify-content:space-between;
+cursor: pointer;
+
 }
 .sidebar{
   position:fixed;
