@@ -11,7 +11,7 @@
   border-bottom-width:1px;
   border-bottom-style:solid;
   border-bottom-color:rgb(232, 224, 224);
-
+   z-index:2;
 
 }
 .left-section{
@@ -41,7 +41,24 @@ justify-content:space-between;
   top:55px;
   background-color: white;
   width:72px;
+  z-index:2;
 
-
-
+}
+.home{
+  height:40px;
+} 
+.explore{
+  height:40px;
+}
+.suscription{
+  height:40px;
+}
+.originals{
+  height:40px;
+}
+.you-tubemusic{
+  height:40px;
+}
+.library{
+  height:40px;
 }
