@@ -1,0 +1,392 @@
+.download-button {
+  background-color: white;
+  color: rgb(121, 82, 179);
+  height: 33px;
+  width: 99px;
+  cursor: pointer;
+  margin-left: 8px;
+  font-weight: bold;
+  font-size: 11px;
+  border-style: solid;
+  border-radius: 4px;
+  border-width: 1px;
+  border-color: rgb(121, 82, 179);
+}
+.get-button {
+  background-color: rgb(121, 82, 179);
+  color: white;
+  height: 33px;
+  width: 98px;
+  margin-left: 8px;
+  font-weight: bold;
+  font-size: 11px;
+  cursor: pointer;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  border-radius: 4px;
+  transition: opacity 0.17s ease 0s, background-color 0.18s ease 0s;
+}
+.cart-button:hover {
+  background-color: rgb(242, 192, 30);
+}
+
+.cart-button {
+  background-color: rgb(255, 216, 20);
+  color: black;
+  width: 132px;
+  height: 30px;
+  margin-left: 8px;
+  font-size: 13px;
+  cursor: pointer;
+  border-radius: 15px;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+}
+.request-button {
+  background-color: black;
+  color: white;
+  height: 35px;
+  width: 95px;
+  font-size: 11px;
+  margin-left: 8px;
+  cursor: pointer;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  transition: opacity 0.16s ease 0s;
+}
+.suscribe-button {
+  background-color: rgb(200, 0, 0);
+  color: white;
+  padding-top: 10px;
+  padding-left: 16px;
+  padding-bottom: 10px;
+  padding-right: 16px;
+  cursor: pointer;
+  margin-right: 8px;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  border-radius: 2px;
+  transition: opacity 0.15s ease 0s;
+}
+.tweet-button {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 8px;
+  background-color: rgb(7, 137, 252);
+  color: white;
+  height: 36px;
+  width: 70px;
+  transition: box-shadow 0.15s ease 0s;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  border-radius: 20px;
+}
+.join-button {
+  background-color: white;
+  color: rgb(6, 151, 240);
+  height: 36px;
+  width: 62px;
+  cursor: pointer;
+  border-color: rgb(6, 151, 240);
+  border-style: solid;
+  border-radius: 2px;
+  border-width: 1px;
+  transition: background-color 0.15s ease 0s;
+}
+.video {
+  font-size: 18px;
+  font-weight: bold;
+  width: 300px;
+  line-height: 24px;
+  margin-bottom: 2px;
+  margin-top: 1px;
+}
+.views {
+  margin-top: 0px;
+  font-size: 14px;
+  margin-bottom: 16px;
+  color: rgb(96, 96, 96);
+}
+.check {
+  font-size: 14px;
+  font-family: Arial;
+  color: rgb(96, 96, 96);
+  margin-bottom: 16px;
+}
+.text {
+  width: 290px;
+  line-height: 20px;
+  color: rgb(96, 96, 96);
+  font-size: 14px;
+  font-family: Arial;
+  margin-bottom: 150px;
+}
+.shop {
+  font-family: Arial;
+  text-align: center;
+  background-color: rgb(227, 65, 64);
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.new {
+  color: rgb(252, 155, 10);
+  text-align: center;
+  font-family: Arial;
+  font-size: 15px;
+  margin-bottom: 6px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.m {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: "Young Serif", serif;
+}
+.n {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.buy:hover {
+  background-color: rgb(6, 151, 240);
+  color: white;
+}
+
+.buy {
+  display: block;
+  background-color: rgb(7, 137, 252);
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 13px;
+  padding-right: 13px;
+  cursor: pointer;
+  font-family: "Young Serif", serif;
+  font-weight: bold;
+  margin: 7px auto 30px;
+  border-radius: 11px;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+}
+.price {
+  color: rgb(96, 96, 96);
+  font-family: Arial;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+.first {
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 10px;
+}
+.online {
+  text-align: center;
+}
+.dog {
+  width: 200px;
+  object-position: center center;
+  object-fit: contain;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+.name, .email {
+  margin-top: 10px;
+  display: block;
+}
+.talk {
+  font-family: Arial;
+  width: 300px;
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 15px;
+}
+.yes, .no {
+  vertical-align: middle;
+  display: inline-block;
+}
+.music {
+  background-color: black;
+  width: 300px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+div {
+  display: block;
+}
+.install {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+  font-family: Arial;
+}
+.ad {
+  font-family: Arial;
+  font-size: 15px;
+  color: rgb(96, 96, 96);
+}
+.cat {
+  width: 200px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 5px;
+  display: inline-block;
+  margin-left:10px;
+}
+.add {
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+  background-color: rgb(6, 151, 240);
+  margin-bottom: 10px;
+  margin-left: 8px;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  border-radius: 4px;
+}
+.friend {
+  font-family: Arial;
+  margin-left: 8px;
+  margin-bottom: 12px;
+}
+.oliver {
+  font-size: 16px;
+  margin-left: 8px;
+  margin-bottom: 4px;
+}
+.image {
+  object-fit: cover;
+  object-position: center top;
+  margin-bottom: 12px;
+  width: 200px;
+  height: 200px;
+}
+
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+.tweet{
+  width: 450px;
+  height: 55px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 5px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-left: 20px;
+  display: inline-block;
+}
+.question {
+  font-family: Arial;
+  width: 300px;
+  vertical-align: middle;
+  font-size: 17px;
+  border-width: initial;
+  border:none;
+}
+.suji {
+  display: inline-block;
+  object-position: left center;
+  margin-right: 5px;
+  width: 45px;
+  vertical-align: middle;
+  height: 45px;
+  object-fit: cover;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 5px;
+  border-radius: 22px;
+}
+
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+.thebutton {
+  cursor: pointer;
+  display: inline-block;
+  font-weight: bold;
+  margin-left: 8px;
+  background-color: rgb(7, 137, 252);
+  color: white;
+  font-size: 16px;
+  vertical-align: middle;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  transition: box-shadow 0.15s ease 0s;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  border-radius: 20px;
+}
+.caty{
+  display:block;
+  width:200px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 5px;
+
+}
+.profile{
+  display:inline-block;
+  width:70px;
+}
+.pt{
+  border-radius:20px;
+ object-fit:contain ;
+  width:50px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 5px;
+
+}
+.namey{
+  display:inline-block;
+  width:110px;
+
+
+}
+.firsty{
+  font-weight:bold;
+
+}
+.second,.third{
+  color:rgb(96, 96, 96);
+  font-size:12px;
+}
+.body{
+  padding-bottom:1000px;
+}
