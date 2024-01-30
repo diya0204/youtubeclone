@@ -4,6 +4,7 @@
   object-fit:contain;
   object-position:right;
   display:block;
+  border-radius: 8px;
 }
 
 .next,.view{
@@ -69,6 +70,7 @@ font-weight:500;
 margin-top:0;
 line-height:20px;
 margin-bottom:10px;
+
 }
 
 
@@ -185,4 +187,9 @@ border-radius:16px;
   margin-bottom:8px;
   position:relative;
  
+}
+.video-link{
+  text-decoration: none;
+  color:black;
+  cursor: pointer;
 }
